@@ -50,26 +50,26 @@
      <string>Daten abspeichern</string>
     </property>
    </widget>
-   <widget class="QLineEdit" name="dataPath">
+   <widget class="QLineEdit" name="dataPathText">
     <property name="geometry">
      <rect>
       <x>20</x>
-      <y>390</y>
-      <width>281</width>
-      <height>20</height>
+      <y>350</y>
+      <width>231</width>
+      <height>24</height>
      </rect>
     </property>
     <property name="text">
-     <string>/home/pi/UnserProjekt/daten.txt</string>
+     <string>/home/pi/UnserProjekt</string>
     </property>
    </widget>
-   <widget class="QLabel" name="dataLabel">
+   <widget class="QLabel" name="dataPathLabel">
     <property name="geometry">
      <rect>
-      <x>20</x>
-      <y>370</y>
-      <width>151</width>
-      <height>16</height>
+      <x>0</x>
+      <y>330</y>
+      <width>136</width>
+      <height>18</height>
      </rect>
     </property>
     <property name="text">
@@ -95,10 +95,10 @@
    <widget class="QTextEdit" name="textEdit">
     <property name="geometry">
      <rect>
-      <x>30</x>
-      <y>140</y>
+      <x>20</x>
+      <y>170</y>
       <width>261</width>
-      <height>181</height>
+      <height>111</height>
      </rect>
     </property>
     <property name="readOnly">
@@ -132,6 +132,55 @@ p, li { white-space: pre-wrap; }
      <rect>
       <x>290</x>
       <y>0</y>
+      <width>57</width>
+      <height>14</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>in cm</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="fileNameLabel">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>370</y>
+      <width>161</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Datei name mit Endung</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="fileNameText">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>390</y>
+      <width>113</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>data.txt</string>
+    </property>
+   </widget>
+   <widget class="QLCDNumber" name="rangeDisplay">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>120</y>
+      <width>121</width>
+      <height>41</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="rangeDisplayLabel">
+    <property name="geometry">
+     <rect>
+      <x>150</x>
+      <y>140</y>
       <width>57</width>
       <height>14</height>
      </rect>
