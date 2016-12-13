@@ -1,3 +1,13 @@
+/**
+ * @file qcustomplot.cpp
+ *
+ */
+
+/**
+ * @file qcustomplot.cpp
+ *
+ */
+
 /***************************************************************************
 **                                                                        **
 **  QCustomPlot, an easy to use, modern plotting widget for Qt            **
